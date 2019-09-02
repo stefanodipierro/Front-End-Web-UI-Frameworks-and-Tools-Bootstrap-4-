@@ -6,12 +6,15 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
+
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.12.0"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
@@ -19,5 +22,13 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "popper.js": "^1.12.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanodipierro/Front-End-Web-UI-Frameworks-and-Tools-Bootstrap-4-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanodipierro/Front-End-Web-UI-Frameworks-and-Tools-Bootstrap-4-/issues"
+  },
+  "homepage": "https://github.com/stefanodipierro/Front-End-Web-UI-Frameworks-and-Tools-Bootstrap-4-#readme"
 }
